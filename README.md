@@ -11,7 +11,7 @@ fn main() {
     let svg = SvgAvatarBuilder::new()
         .identifier("foo")
         .rings(Rings::Three)
-        .stroke_color("white")
+        .stroke_color("black")
         .build();
 
     svg.save("bar.svg").unwrap();

@@ -13,9 +13,18 @@ const SQRT_FRAC_3_4: f64 = 0.8660254037844386;
 const SQRT_FRAC_1_4: f64 = 0.5;
 
 const ONE_DIVIDER: [f64; 1] = [1.0];
-const TWO_DIVIDERS: [f64; 2] = [1.0, FRAC_1_SQRT_2];
-const THREE_DIVIDERS: [f64; 3] = [1.0, SQRT_FRAC_2_3, SQRT_FRAC_1_3];
-const FOUR_DIVIDERS: [f64; 4] = [1.0, SQRT_FRAC_3_4, FRAC_1_SQRT_2, SQRT_FRAC_1_4];
+const TWO_DIVIDERS: [f64; 2] = [1.0, (FRAC_1_SQRT_2 + 0.5) / 2.0];
+const THREE_DIVIDERS: [f64; 3] = [
+    1.0,
+    (SQRT_FRAC_2_3 + (2.0 / 3.0)) / 2.0,
+    (SQRT_FRAC_1_3 + (1.0 / 3.0)) / 2.0,
+];
+const FOUR_DIVIDERS: [f64; 4] = [
+    1.0,
+    (SQRT_FRAC_3_4 + 0.75) / 2.0,
+    (FRAC_1_SQRT_2 + 0.5) / 2.0,
+    (SQRT_FRAC_1_4 + 0.25) / 2.0,
+];
 
 /// Rings variants control the number of rings generated in avatars.
 #[non_exhaustive]
