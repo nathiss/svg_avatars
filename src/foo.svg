@@ -1,0 +1,28 @@
+<svg viewBox="-1.1 -1.1 2.3 2.3" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M0,0 L0,-1 A1,1,0,0,1,0.70710677,-0.70710677 z" fill="hsl(32.598038, 67.5%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.70710677,-0.70710677 A1,1,0,0,1,1,0 z" fill="hsl(32.598038, 42.5%, 60%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L1,0 A1,1,0,0,1,0.70710677,0.70710677 z" fill="hsl(66.34804, 42.5%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.70710677,0.70710677 A1,1,0,0,1,0,1 z" fill="hsl(47.598038, 55%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0,1 A1,1,0,0,1,-0.70710677,0.70710677 z" fill="hsl(47.598038, 55%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.70710677,0.70710677 A1,1,0,0,1,-1,0 z" fill="hsl(81.34804, 67.5%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-1,0 A1,1,0,0,1,-0.70710677,-0.70710677 z" fill="hsl(70.09804, 42.5%, 60%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.70710677,-0.70710677 A1,1,0,0,1,-0,-1 z" fill="hsl(55.098038, 67.5%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0,-0.77 A0.77,0.77,0,0,1,0.5444722,-0.5444722 z" fill="hsl(246.83823, 55%, 50%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.5444722,-0.5444722 A0.77,0.77,0,0,1,0.77,0 z" fill="hsl(224.33823, 55%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.77,0 A0.77,0.77,0,0,1,0.5444722,0.5444722 z" fill="hsl(205.58823, 42.5%, 50%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.5444722,0.5444722 A0.77,0.77,0,0,1,0,0.77 z" fill="hsl(201.83823, 67.5%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0,0.77 A0.77,0.77,0,0,1,-0.5444722,0.5444722 z" fill="hsl(194.33823, 67.5%, 50%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.5444722,0.5444722 A0.77,0.77,0,0,1,-0.77,0 z" fill="hsl(201.83823, 30%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.77,0 A0.77,0.77,0,0,1,-0.5444722,-0.5444722 z" fill="hsl(205.58823, 30%, 50%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.5444722,-0.5444722 A0.77,0.77,0,0,1,-0,-0.77 z" fill="hsl(201.83823, 42.5%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0,-0.5 A0.5,0.5,0,0,1,0.35355338,-0.35355338 z" fill="hsl(97.867645, 30%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.35355338,-0.35355338 A0.5,0.5,0,0,1,0.5,0 z" fill="hsl(109.117645, 30%, 60%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.5,0 A0.5,0.5,0,0,1,0.35355338,0.35355338 z" fill="hsl(101.617645, 67.5%, 50%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0.35355338,0.35355338 A0.5,0.5,0,0,1,0,0.5 z" fill="hsl(120.367645, 30%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L0,0.5 A0.5,0.5,0,0,1,-0.35355338,0.35355338 z" fill="hsl(116.617645, 42.5%, 40%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.35355338,0.35355338 A0.5,0.5,0,0,1,-0.5,0 z" fill="hsl(124.117645, 30%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.5,0 A0.5,0.5,0,0,1,-0.35355338,-0.35355338 z" fill="hsl(135.36765, 67.5%, 70%)" stroke="black" stroke-width="0.01"/>
+<path d="M0,0 L-0.35355338,-0.35355338 A0.5,0.5,0,0,1,-0,-0.5 z" fill="hsl(131.61765, 30%, 40%)" stroke="black" stroke-width="0.01"/>
+</g>
+</svg>

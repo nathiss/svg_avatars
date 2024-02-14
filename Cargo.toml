@@ -1,0 +1,17 @@
+[package]
+name = "svg_avatars"
+version = "0.1.0"
+authors = ["Kamil Rusin <kamil.jakub.rusin@gmail.com>"]
+edition = "2021"
+description = "A Rust library for generating SVG avatars from identifiers."
+readme = "README.md"
+homepage = "https://github.com/nathiss/svg_avatars"
+repository = "https://github.com/nathiss/svg_avatars"
+license = "MIT"
+keywords = ["library", "svg", "avatar", "graphics", "2d"]
+categories = ["multimedia::images", "graphics"]
+include = ["/src", "LICENSE.txt", "README.md"]
+
+[dependencies]
+sha2 = "0.10.8"
+svg = "0.15.0"
