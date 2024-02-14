@@ -209,11 +209,11 @@ impl SvgAvatarBuilder {
         let normalized_s = (s as f32) / 4.0;
         let normalized_l = (l as f32) / 4.0;
 
-        let normalized_h = 50.0 * theme.normalized_global_theme()
-            + 200.0 * theme.normalized_ring_theme(ring_index)
-            + 60.0 * normalized_h;
-        let normalized_s = 30.0 + 50.0 * normalized_s;
-        let normalized_l = 40.0 + 40.0 * normalized_l;
+        let normalized_h = 360.0 * theme.normalized_global_theme()
+            + 120.0 * theme.normalized_ring_theme(ring_index)
+            + 30.0 * normalized_h;
+        let normalized_s = 20.0 + 80.0 * normalized_s;
+        let normalized_l = 40.0 + 50.0 * normalized_l;
 
         format!("hsl({normalized_h}, {normalized_s}%, {normalized_l}%)")
     }

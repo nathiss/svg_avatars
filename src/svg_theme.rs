@@ -25,22 +25,27 @@ impl<'a> SvgTheme<'a> {
         }
     }
 
+    #[inline(always)]
     pub(crate) fn ring(&self, ring_index: usize, index: usize) -> u8 {
         self.rings[ring_index * 8 + index]
     }
 
+    #[inline(always)]
     pub(crate) fn normalized_global_theme(&self) -> f32 {
         self.normalized_global_theme
     }
 
+    #[inline(always)]
     pub(crate) fn normalized_ring_theme(&self, index: usize) -> f32 {
         self.normalized_ring_themes[index]
     }
 
+    #[inline(always)]
     pub(crate) fn stroke_color(&self) -> &str {
         &self.stroke_color
     }
 
+    #[inline(always)]
     fn calculate_theme(hash: &[u8]) -> u8 {
         hash.iter().fold(0u8, |acc, h| acc ^ h)
     }
