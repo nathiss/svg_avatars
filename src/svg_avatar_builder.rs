@@ -154,7 +154,7 @@ impl SvgAvatarBuilder {
 
         let mut g = Group::new();
 
-        for (ring_index, divider) in self.rings.to_dividers().iter().enumerate() {
+        for (ring_index, divider) in self.rings.get_dividers().iter().enumerate() {
             for index in 0..8 {
                 let path = Self::create_path(ring_index, index, *divider, &theme);
                 g.append(path);

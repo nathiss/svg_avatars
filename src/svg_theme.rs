@@ -10,7 +10,7 @@ impl<'a> SvgTheme<'a> {
     pub(crate) fn new(hash: &'a [u8; 32], stroke_color: impl Into<String>) -> Self {
         let normalized_ring_themes = hash
             .windows(8)
-            .map(|ring| Self::calculate_theme(ring))
+            .map(Self::calculate_theme)
             .map(|ring_theme| (ring_theme as f32) / (u8::MAX as f32))
             .collect::<Vec<_>>();
 

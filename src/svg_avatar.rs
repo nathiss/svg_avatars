@@ -83,20 +83,20 @@ impl DerefMut for SvgAvatar {
     }
 }
 
-impl Into<String> for SvgAvatar {
-    fn into(self) -> String {
-        self.to_string()
+impl From<SvgAvatar> for String {
+    fn from(value: SvgAvatar) -> Self {
+        value.to_string()
     }
 }
 
-impl Into<Vec<u8>> for SvgAvatar {
-    fn into(self) -> Vec<u8> {
-        self.to_string().into_bytes()
+impl From<SvgAvatar> for Vec<u8> {
+    fn from(value: SvgAvatar) -> Self {
+        value.to_string().into_bytes()
     }
 }
 
-impl Into<Document> for SvgAvatar {
-    fn into(self) -> Document {
-        self.document
+impl From<SvgAvatar> for Document {
+    fn from(value: SvgAvatar) -> Self {
+        value.document
     }
 }

@@ -59,7 +59,7 @@ pub enum Rings {
 }
 
 impl Rings {
-    pub(crate) fn to_dividers(&self) -> &'static [f64] {
+    pub(crate) fn get_dividers(&self) -> &'static [f64] {
         match self {
             Rings::One => &ONE_DIVIDER,
             Rings::Two => &TWO_DIVIDERS,
