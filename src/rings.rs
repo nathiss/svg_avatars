@@ -1,9 +1,21 @@
-use std::fmt::Display;
+use std::{f64::consts::FRAC_1_SQRT_2, fmt::Display};
+
+/// sqrt(1/3)
+const SQRT_FRAC_1_3: f64 = 0.5773502691896258;
+
+/// sqrt(2/3)
+const SQRT_FRAC_2_3: f64 = 0.816496580927726;
+
+/// sqrt(3/4)
+const SQRT_FRAC_3_4: f64 = 0.8660254037844386;
+
+/// sqrt(1/4)
+const SQRT_FRAC_1_4: f64 = 0.5;
 
 const ONE_DIVIDER: [f64; 1] = [1.0];
-const TWO_DIVIDERS: [f64; 2] = [1.0, 0.65];
-const THREE_DIVIDERS: [f64; 3] = [1.0, 0.77, 0.50];
-const FOUR_DIVIDERS: [f64; 4] = [1.0, 0.77, 0.55, 0.3];
+const TWO_DIVIDERS: [f64; 2] = [1.0, FRAC_1_SQRT_2];
+const THREE_DIVIDERS: [f64; 3] = [1.0, SQRT_FRAC_2_3, SQRT_FRAC_1_3];
+const FOUR_DIVIDERS: [f64; 4] = [1.0, SQRT_FRAC_3_4, FRAC_1_SQRT_2, SQRT_FRAC_1_4];
 
 /// Rings variants control the number of rings generated in avatars.
 #[non_exhaustive]
