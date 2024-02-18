@@ -166,7 +166,7 @@ impl SvgAvatarBuilder {
     }
 
     fn create_document() -> Document {
-        Document::new().set("viewBox", (-1.1, -1.1, 2.3, 2.3))
+        Document::new().set("viewBox", (-1, -1, 2, 2))
     }
 
     fn create_path(ring_index: usize, index: usize, divider: f64, theme: &SvgTheme) -> Path {
