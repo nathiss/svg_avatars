@@ -166,7 +166,9 @@ impl SvgAvatarBuilder {
     }
 
     fn create_document() -> Document {
-        Document::new().set("viewBox", (-1, -1, 2, 2))
+        Document::new()
+            .set("viewBox", (-1, -1, 2, 2))
+            .set("overflow", "visible")
     }
 
     fn create_path(ring_index: usize, index: usize, divider: f64, theme: &SvgTheme) -> Path {
